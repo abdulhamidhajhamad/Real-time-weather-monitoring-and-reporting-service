@@ -1,4 +1,6 @@
-namespace DefaultNamespace;
+namespace WeatherMonitoring.Console.Contexts;
+using WeatherMonitoring.Console.Models;
+using WeatherMonitoring.Console.Parsers;
 
 public class WeatherDataProcessor
 {

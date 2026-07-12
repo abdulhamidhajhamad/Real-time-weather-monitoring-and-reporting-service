@@ -1,4 +1,5 @@
-namespace DefaultNamespace;
+namespace WeatherMonitoring.Console.Parsers;
+using WeatherMonitoring.Console.Models;
 
 public interface IWeatherDataParser
 {
