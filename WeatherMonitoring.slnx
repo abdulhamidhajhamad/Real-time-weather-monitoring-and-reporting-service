@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="WeatherMonitoring.Console/WeatherMonitoring.Console.csproj" />
+  <Project Path="WeatherMonitoring.Tests/WeatherMonitoring.Tests.csproj" />
+</Solution>
