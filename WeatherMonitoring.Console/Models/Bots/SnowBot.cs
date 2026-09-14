@@ -3,16 +3,16 @@ using WeatherMonitoring.Console.Models;
 
 public class SnowBot : Bot
 {
-    public double HumidityThreshold { get; set; }
+    public double TemperatureThreshold { get; set; }
     public SnowBot(BotConfiguration config)
     {
         Enabled = config.Enabled;
         Message = config.Message;
-        HumidityThreshold = config.Threshold;
+        TemperatureThreshold = config.Threshold;
     }
 
     public override bool ShouldActivate(WeatherData data)
     {
-        return data.Humidity > HumidityThreshold;
+        return data.Temperature < TemperatureThreshold;
     }
 }

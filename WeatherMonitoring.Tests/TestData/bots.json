@@ -1,0 +1,12 @@
+{
+  "RainBot": {
+    "Enabled": true,
+    "HumidityThreshold": 70,
+    "Message": "Rain alert"
+  },
+  "SnowBot": {
+    "Enabled": true,
+    "TemperatureThreshold": 5,
+    "Message": "Snow alert"
+  }
+}
